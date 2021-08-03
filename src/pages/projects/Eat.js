@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Background from '../../components/forProjects/Background';
 import Cover from '../../components/forProjects/Cover';
 import Overview from '../../components/forProjects/Overview';
 import Text from '../../components/forProjects/Text';
@@ -16,7 +17,8 @@ import steak from '../../assets/sample/steak.jpeg'
 function Eat() {
     return (
         <div>
-            <Cover title={"Eat n' Log"} subTitle={"A new way to record your favourite dishes"} coverNumber={'cover'} colourNumber={'cover-container'} />
+            <Background coverNumber={'cover'}/>
+            <Cover title={"Eat n' Log"} subTitle={"Record meaningful food experience with ease"} colourNumber={'cover-container'} />
             <div className="content">
                 <Overview
                     role={'UX Designer, UX Researcher'}

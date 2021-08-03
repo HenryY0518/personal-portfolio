@@ -1,19 +1,14 @@
 import React from 'react';
 import ProjectInfo from '../components/ProjectInfo';
-
-import cross from '../assets/sample/cross.jpeg';
-import car from '../assets/sample/car.jpeg';
-import truck from '../assets/sample/truck.jpeg';
-import rice from '../assets/sample/rice.jpeg';
-import flower from '../assets/sample/flower.jpeg';
-import boi from '../assets/sample/boi.jpeg';
-import sky from '../assets/sample/sky.jpeg';
-import light from '../assets/sample/light.jpeg';
-import soup from '../assets/sample/soup.jpeg';
-import grass from '../assets/sample/grass.jpeg';
-import tea from '../assets/sample/tea.jpeg';
-import shots from '../assets/sample/shots.jpeg';
 import Button from './Button';
+
+import persona2 from '../assets/images/ai/persona2.jpeg'
+import logic from '../assets/images/ai/logic.jpeg'
+import ai_wireframe from '../assets/images/ai/ai_wireframe.jpeg'
+import style1 from '../assets/images/ai/style1.jpeg'
+import prototype1 from '../assets/images/ai/prototype1.jpeg'
+import team1 from '../assets/images/ai/team1.jpeg'
+
 
 function Project0(props) {
 
@@ -21,23 +16,19 @@ function Project0(props) {
         <div className='project1' id='project1'>
             <div className='projectContainer'>
                 <Button address={'/ai'}></Button>
-                <ProjectInfo projectName="AI Garden" projectTagline="Realize the garden of your dream"></ProjectInfo>
+                <ProjectInfo projectName="AI Garden" projectTagline="Smart irrigation solution for the new generation farmers"></ProjectInfo>
                 <div class="row">
                     <div class="column">
-                        <img src={cross} />
-                        <img src={car} />
+                        <img src={prototype1} />
+                        <img src={style1} />
                     </div>
                     <div class="column">
-                        <img src={boi} />
-                        <img src={truck} />
+                        <img src={logic} />
+                        <img src={ai_wireframe} />
                     </div>
                     <div class="column">
-                        <img src={shots} />
-                        <img src={rice} />
-                    </div>
-                    <div class="column">
-                        <img src={flower} />
-                        <img src={light} />
+                        <img src={persona2} />
+                        <img src={team1} />
                     </div>
                 </div>
             </div>

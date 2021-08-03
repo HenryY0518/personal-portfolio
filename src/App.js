@@ -16,7 +16,6 @@ import Happy from './pages/projects/Happy';
 
 import Craig from './pages/ChristmasCards/Craig'
 
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -28,15 +27,14 @@ class App extends React.Component {
         { title: 'Resume', path: '/resume' }
       ],
       home: {
-        title: "Hi, I'm Henry, an aspired UX desginer.",
-        subTitle: 'Check out my awesome projects below.',
-        // text: 'Check out my awesome projects below'
+        title: "Hey, I'm Henry Yang, a product designer based in Vancouver.",
+        subTitle: 'Check out my projects below.',
       },
       about: {
         title: 'About me',
       },
       resume: {
-        title: 'What up',
+        title: 'Projects',
       }
     }
   }
@@ -49,11 +47,10 @@ class App extends React.Component {
         <Container className='p-0 background' fluid={true}>
           <Route path='/' exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path='/about' exact render={() => <About title={this.state.about.title} />} />
-          <Route path='/resume' exact render={() => <Resume title={this.state.resume.title} />} />
           <Route path='/eat' exact render={() => <Eat title={this.state.resume.title} />} />
           <Route path='/ai' exact render={() => <AI title={this.state.resume.title} />} />
           <Route path='/happy' exact render={() => <Happy title={this.state.resume.title} />} />
-          <Route path='/craig' exact render={() => <Craig/>} />
+          <Route path='/craig' exact render={() => <Craig/>}/>
           <Footer></Footer>
           <Navbar></Navbar>
         </Container>

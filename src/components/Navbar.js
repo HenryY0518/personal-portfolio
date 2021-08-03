@@ -2,7 +2,10 @@ import React, { Component } from "react";
 import classnames from "classnames";
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 
-import logo from '../assets/images/logo.jpeg'
+import logo from '../assets/images/logo.jpeg';
+
+import resume from '../pdf/resume.pdf';
+
 
 export default class Navbar extends Component {
   constructor(props) {
@@ -37,6 +40,8 @@ export default class Navbar extends Component {
     });
   };
 
+  
+
   render() {
     return (
       <nav
@@ -46,9 +51,10 @@ export default class Navbar extends Component {
       >
         <li className='bnavItem'><NavLink className='links' to='/'><img className='logo' src={logo}></img></NavLink></li>
         <li className='bnavItem--left'><NavLink className='links' to='/'>HY Design.</NavLink></li>
-        <li className='bnavItem--right'><NavLink className='links' to='/resume' activeStyle={{ color: '#af2c2c' }}>Resume</NavLink></li>
         <li className='bnavItem--right'><NavLink className='links' to='/about' activeStyle={{ color: '#af2c2c' }}>About</NavLink></li>
+        <li className='bnavItem--right'><a className='links' href={resume}>Resume</a></li>
       </nav>
     );
   }
 }
+

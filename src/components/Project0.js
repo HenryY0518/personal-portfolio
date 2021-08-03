@@ -1,46 +1,31 @@
 import React from 'react';
 import ProjectInfo from '../components/ProjectInfo';
 
-import cross from '../assets/sample/cross.jpeg';
-import car from '../assets/sample/car.jpeg';
-import truck from '../assets/sample/truck.jpeg';
-import rice from '../assets/sample/rice.jpeg';
-import flower from '../assets/sample/flower.jpeg';
-import boi from '../assets/sample/boi.jpeg';
-import sky from '../assets/sample/sky.jpeg';
-import light from '../assets/sample/light.jpeg';
-import soup from '../assets/sample/soup.jpeg';
-import grass from '../assets/sample/grass.jpeg';
-import tea from '../assets/sample/tea.jpeg';
-import shots from '../assets/sample/shots.jpeg';
+import neon2 from '../assets/images/eat/neon2.jpeg';
+import bonne from '../assets/images/eat/bonne.jpeg';
+import post from '../assets/images/eat/post.jpeg';
+import entry from '../assets/images/eat/entry.jpeg';
 
 
-import Button from './Button';
+
+import ComingSoon from './ComingSoon';
 
 function Project0(props) {
 
     return (
         <div className='project0' id='project0'>
             <div className='projectContainer'>
-                <Button address={'/eat'}></Button>
-                <ProjectInfo projectName="Eat n' Log" projectTagline="A better way to remeber great food"></ProjectInfo>
-                {/* <Button>Learn More</Button> */}
+                <ComingSoon address={'/eat'}></ComingSoon>
+                <ProjectInfo projectName="Eat n' Log" projectTagline="Record meaningful food experience with ease"></ProjectInfo>
                 <div class="row">
                     <div class="column">
-                        <img src={cross} />
-                        <img src={car} />
+                        <img src={neon2}/>
                     </div>
                     <div class="column">
-                        <img src={boi} />
-                        <img src={truck} />
+                        <img src={entry}/>
                     </div>
                     <div class="column">
-                        <img src={shots} />
-                        <img src={rice} />
-                    </div>
-                    <div class="column">
-                        <img src={flower} />
-                        <img src={light} />
+                        <img src={post}/>
                     </div>
                 </div>
             </div>

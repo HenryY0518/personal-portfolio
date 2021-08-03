@@ -52,7 +52,7 @@ render() {
         if (this.state.status === "first") {
             return (
                 <div className='header'>
-                    We eat, sleep, and have fuck.
+                    We eat, sleep, and have fun.
                 </div>
             );
         } else {

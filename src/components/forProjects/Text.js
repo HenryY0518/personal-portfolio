@@ -1,10 +1,11 @@
 import React, { Children } from 'react';
 
-
 function Text (props) {
     return (
         <div className='text'>
-            <h4>{props.head}</h4>
+            <h3>{props.head}</h3>
+            <h4>{props.subhead}</h4>
+            <h5>{props.subsubhead}</h5>
             <p>{props.children}</p>
         </div>
     );

@@ -5,7 +5,7 @@ function ProjectInfo(props) {
     
     return(
         <div>
-            <p className='projectInfo'>{props.projectName}</p>
+            <h1 className='projectInfo'>{props.projectName}</h1>
             <p className='projectDescription'>{props.projectTagline}</p>
         </div>
     );

@@ -14,6 +14,15 @@ import grass from '../assets/sample/grass.jpeg';
 import tea from '../assets/sample/tea.jpeg';
 import shots from '../assets/sample/shots.jpeg';
 
+
+import sticky from '../assets/images/happy/sticky.jpeg'
+import landing from '../assets/images/happy/landing.jpeg'
+import gradient from '../assets/images/happy/gradient.jpeg'
+import login from '../assets/images/happy/login.jpeg'
+import happyBranding from  '../assets/images/happy/happyBranding.jpeg'
+import long from  '../assets/images/happy/long.jpeg'
+import bigHappy from  '../assets/images/happy/bigHappy.jpeg'
+
 import Button from './Button';
 
 function Project0(props) {
@@ -22,23 +31,19 @@ function Project0(props) {
         <div className='project2' id='project2'>
             <div className='projectContainer'>
                 <Button address={'/happy'}></Button>
-                <ProjectInfo projectName="HappyHour" projectTagline="The only group sceduling product you need"></ProjectInfo>
+                <ProjectInfo projectName="HappyHour" projectTagline="Group scheduling made simple"></ProjectInfo>
                 <div class="row">
                     <div class="column">
-                        <img src={cross} />
-                        <img src={car} />
+                        <img src={happyBranding} />
+                        <img src={login} />
                     </div>
                     <div class="column">
-                        <img src={boi} />
-                        <img src={truck} />
+                        <img src={landing} />
+                        <img src={bigHappy} />
                     </div>
                     <div class="column">
-                        <img src={shots} />
-                        <img src={rice} />
-                    </div>
-                    <div class="column">
-                        <img src={flower} />
-                        <img src={light} />
+                        <img src={sticky} />
+                        <img src={gradient} />
                     </div>
                 </div>
             </div>

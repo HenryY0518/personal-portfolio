@@ -18,16 +18,16 @@ function Project3(props) {
                 <ProjectInfo projectName="Miscellaneous" projectTagline="See the world through my lense"></ProjectInfo>
                 <div class="row">
                     <div class="column">
-                        <img src={album} />
-                        <img src={room} />
+                        <img src={album} alt="album"/>
+                        <img src={room} alt="room"/>
                     </div>
                     <div class="column">
-                        <img src={beach} />
-                        <img src={arc} />
+                        <img src={beach} alt="beach"/>
+                        <img src={arc} alt="arc"/>
                     </div>
                     <div class="column">
-                        <img src={mountain} />
-                        <img src={tower} />
+                        <img src={mountain} alt="mountain"/>
+                        <img src={tower} alt="tower"/>
                     </div>
                 </div>
             </div>

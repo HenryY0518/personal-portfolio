@@ -1,7 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+
 
 import Background from '../../components/forProjects/Background';
 import Cover from '../../components/forProjects/Cover';
@@ -12,9 +11,6 @@ import Next from '../../components/forProjects/Next';
 
 
 import sticky from '../../assets/images/happy/sticky.jpeg'
-import landing from '../../assets/images/happy/landing.jpeg'
-import gradient from '../../assets/images/happy/gradient.jpeg'
-import login from '../../assets/images/happy/login.jpeg'
 import happyBranding from  '../../assets/images/happy/happyBranding.jpeg'
 import long from  '../../assets/images/happy/long.jpeg'
 import bigHappy from  '../../assets/images/happy/bigHappy.jpeg'
@@ -122,7 +118,7 @@ function Happy() {
                 </Text>
 
                 <Photo source={happyBranding} />
-                <img className="big-photo" src={bigHappy}/>
+                <img className="big-photo" src={bigHappy} alt='long'/>
 
                 <Next address0={'/'} address1={'/ai'} name0={'Home'} name1={"AI Garden"} />
             </div>

@@ -1,15 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 
 import Footer from './components/Footer';
-import Header from './components/Header';
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop'
 
 import HomePage from './pages/HomePage';
 import About from './pages/About';
-import Resume from './pages/Resume';
 import Eat from './pages/projects/Eat';
 import AI from './pages/projects/AI';
 import Happy from './pages/projects/Happy';

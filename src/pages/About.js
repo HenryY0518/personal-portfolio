@@ -1,10 +1,7 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 
-import Content from '../components/Content';
 import Hero1 from '../components/Hero1';
-import car from "../assets/images/about/car.jpeg";
-import street from "../assets/images/about/street.jpeg";
 import me from "../assets/images/about/me.jpeg"
 
 
@@ -29,7 +26,7 @@ function About(props) {
                 <SocialIcon className="icons" url="https://www.instagram.com/henryyang0518/" />
                 <SocialIcon className="icons" url="https://soundcloud.com/henry-yang-733070391" />
             </div>
-            <img className='aboutPhoto' src={me}/>
+            <img className='aboutPhoto' src={me} alt='me'/>
         </div>
     )
 }

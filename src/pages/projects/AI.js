@@ -8,8 +8,6 @@ import Photo from '../../components/forProjects/Photo';
 import Next from '../../components/forProjects/Next';
 
 
-import cross from '../../assets/sample/cross.jpeg'
-import steak from '../../assets/sample/steak.jpeg'
 import persona2 from '../../assets/images/ai/persona2.jpeg'
 import logic from '../../assets/images/ai/logic.jpeg'
 import ai_wireframe from '../../assets/images/ai/ai_wireframe.jpeg'
@@ -115,9 +113,9 @@ function AI() {
                 <p></p>
             </Text>
 
-            <Photo source={style1} />
-
-            <img className='big-photo' src={prototype1} />
+            <Photo source={style1} /> 
+            
+            <img className='big-photo' src={prototype1} alt="prototype1" />
 
             <Text head={'Our Team'}>
                 <p></p>

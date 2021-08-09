@@ -2,7 +2,6 @@ import React from 'react';
 import ProjectInfo from '../components/ProjectInfo';
 
 import neon2 from '../assets/images/eat/neon2.jpeg';
-import bonne from '../assets/images/eat/bonne.jpeg';
 import post from '../assets/images/eat/post.jpeg';
 import entry from '../assets/images/eat/entry.jpeg';
 
@@ -19,13 +18,13 @@ function Project0(props) {
                 <ProjectInfo projectName="Eat n' Log" projectTagline="Record meaningful food experience with ease"></ProjectInfo>
                 <div class="row">
                     <div class="column">
-                        <img src={neon2}/>
+                        <img src={neon2} alt="neon2"/>
                     </div>
                     <div class="column">
-                        <img src={entry}/>
+                        <img src={entry} alt="entry"/>
                     </div>
                     <div class="column">
-                        <img src={post}/>
+                        <img src={post} alt="post"/>
                     </div>
                 </div>
             </div>

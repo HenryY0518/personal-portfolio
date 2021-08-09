@@ -4,13 +4,7 @@ import Background from '../../components/forProjects/Background';
 import Cover from '../../components/forProjects/Cover';
 import Overview from '../../components/forProjects/Overview';
 import Text from '../../components/forProjects/Text';
-import Photo from '../../components/forProjects/Photo';
 import Next from '../../components/forProjects/Next';
-
-
-
-import cross from '../../assets/sample/cross.jpeg'
-import steak from '../../assets/sample/steak.jpeg'
 
 
 
@@ -38,7 +32,6 @@ function Eat() {
                 </p>
                 </Text>
 
-                <Photo source={steak} />
                 <Next address0={'/eat'} address1={'/ai'} name0={'This project'} name1={'AI Garden'} />
             </div>
         </div>

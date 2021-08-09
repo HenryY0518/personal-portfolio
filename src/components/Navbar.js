@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import classnames from "classnames";
+// eslint-disable-next-line 
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 
 import logo from '../assets/images/logo.jpeg';
@@ -49,7 +50,7 @@ export default class Navbar extends Component {
           "bnav--hidden": !this.state.visible
         })}
       >
-        <li className='bnavItem'><NavLink className='links' to='/'><img className='logo' src={logo}></img></NavLink></li>
+        <li className='bnavItem'><NavLink className='links' to='/'><img className='logo' src={logo} alt='logo'></img></NavLink></li>
         <li className='bnavItem--left'><NavLink className='links' to='/'>HY Design.</NavLink></li>
         <li className='bnavItem--right'><NavLink className='links' to='/about' activeStyle={{ color: '#af2c2c' }}>About</NavLink></li>
         <li className='bnavItem--right'><a className='links' href={resume}>Resume</a></li>

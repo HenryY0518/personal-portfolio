@@ -15,7 +15,7 @@ function Project3(props) {
     return (
         <div className='project3' id='project3'>
             <div className='projectContainer'>
-                <ProjectInfo projectName="Miscellaneous" projectTagline="See the world through my lense"></ProjectInfo>
+                <ProjectInfo projectName="Miscellaneous" projectTagline="See the world through my eyes"></ProjectInfo>
                 <div class="row">
                     <div class="column">
                         <img src={album} alt="album"/>

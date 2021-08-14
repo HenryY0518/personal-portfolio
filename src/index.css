@@ -4,6 +4,7 @@ h1 {
   font-family: 'Merriweather', serif;
 }
 
+
 h2 {
   font-family: 'Merriweather', serif;
 }
@@ -70,19 +71,36 @@ code {
   margin: 0px
 }
 
-.bnav {
-  width: 100%;
-  transition: bottom 1.0s;
-  position: fixed;
-  height: 80px;
-  bottom: 0px;
-  font-family: 'Inconsolata', monospace;
-  font-size: 24px;
-  color: #161111;
-  background-color: #FCFAF1;
-  /* border-top: 1px solid #cccccc; */
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
-  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; */
+@media screen and (min-width: 1001px) {
+  .bnav {
+    width: 100%;
+    transition: bottom 1.0s;
+    position: fixed;
+    height: 80px;
+    bottom: 0px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    color: #161111;
+    background-color: #FCFAF1;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .bnav {
+    width: 100%;
+    transition: bottom 1.0s;
+    position: fixed;
+    height: 80px;
+    bottom: 0px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    color: #161111;
+    background-color: #FCFAF1;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  }
 }
 
 .bnav--hidden {
@@ -97,9 +115,20 @@ code {
   display: block;
 }
 
-.logo {
-  height: 60px;
-  width: 120px;
+
+@media screen and (min-width: 1001px) {
+  .logo {
+    height: 60px;
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .logo {
+    height: 30px;
+    width: 60px;
+    margin-top:13px;
+  }
 }
 
 .bnavItem--left {
@@ -265,15 +294,11 @@ code {
 .linkSpacer {
   padding-left: 8px;
 }
-
+/* 
 .landingContainer {
   height: 100vh;
   width: 100%;
   position: relative;
-  /* background-image: url('./assets/images/paper.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 
 .landingContainer::before {
@@ -297,7 +322,7 @@ code {
   50% {
     transform: translateY(-50%);
   }
-}
+} */
 
 .row {
   display: flex;
@@ -372,26 +397,63 @@ code {
   padding-bottom: 108px;
 }
 
-.projectInfo {
-  padding-left: 0px;
-  padding-top: 32px;
-  margin-left: -8px;
-  color: #fff;
+
+@media screen and (min-width: 1001px) {
+  .projectInfo {
+    padding-left: 0px;
+    padding-top: 32px;
+    margin-left: -8px;
+    color: #fff;
+  }
 }
 
-.projectDescription {
-  padding-left: 0px;
-  padding-top: 8px;
-  margin-left: -6px;
-  color: #fff;
+@media screen and (max-width: 1000px) {
+  .projectInfo {
+    padding-left: 0px;
+    padding-top: 32px;
+    margin-left: -8px;
+    color: #fff;
+    font-size: 32px;
+  }
 }
 
-.hero {
-  float: center;
-  padding-top: 18vh;
-  padding-left: 8%;
-  padding-right: 8%;
-  padding-bottom: 3vh;
+@media screen and (min-width: 1001px) {
+  .projectDescription {
+    padding-left: 0px;
+    padding-top: 8px;
+    margin-left: -6px;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .projectDescription {
+    padding-left: 0px;
+    padding-top: 8px;
+    margin-left: -6px;
+    color: #fff;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .hero {
+    float: center;
+    padding-top: 17vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 3vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hero {
+    float: center;
+    padding-top: 15vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 3vh;
+  }
 }
 
 .hero1 {
@@ -419,9 +481,16 @@ code {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) and (min-width:501px) {
   .title {
-    font-size: 48px;
+    font-size: 64px;
+    color: #161111;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 42px;
     color: #161111;
   }
 }
@@ -440,14 +509,31 @@ code {
   }
 }
 
-.button {
-  font-family: 'Inconsolata', monospace;
-  font-size: 18px;
-  color: #fbfbf8;
-  background-color: #161111;
-  border: none;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+
+
+@media screen and (min-width: 1001px) {
+  .button {
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    color: #fbfbf8;
+    background-color: #161111;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .button {
+    font-family: 'Inconsolata', monospace;
+    font-size: 13px;
+    color: #fbfbf8;
+    background-color: #161111;
+    border: none;
+    cursor: pointer;
+    margin:-16px;
+    transition: transform 0.3s ease;
+  }
 }
 
 .button:hover {
@@ -610,22 +696,43 @@ code {
   font-family: 'Inconsolata', monospace;
 }
 
-.footer-left {
-  position: relative;
-  float: left;
-  padding-top: 36px;
-  padding-left: 3%;
-  font-size: 20px;
-  display: block;
+@media screen and (min-width: 1001px) {
+  .footer-left {
+    position: relative;
+    float: left;
+    padding-top: 36px;
+    padding-left: 3%;
+    font-size: 20px;
+    display: block;
+  }
 }
 
-.footer-right {
-  position: relative;
-  float: right;
-  padding-top: 36px;
-  padding-right: 3%;
-  font-size: 20px;
-  display: block;
+@media screen and (max-width: 1000px) {
+  .footer-left {
+    position: relative;
+    float: center;
+    padding-top: 36px;
+    padding-left: 3%;
+    font-size: 24px;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .footer-right {
+    position: relative;
+    float: right;
+    padding-top: 36px;
+    padding-right: 3%;
+    font-size: 20px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer-right {
+    display: none;
+  }
 }
 
 .text {

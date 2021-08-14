@@ -45,27 +45,27 @@ render() {
     if (this.state.status === "top") {
         return (
             <div className='header'>
-                What seperate us from animals?
+                What does it mean to be a designer?
             </div>
         );   
     } else {
         if (this.state.status === "first") {
             return (
                 <div className='header'>
-                    We eat, sleep, and have fun.
+                    It means being a life-long learner who tries to understand others,
                 </div>
             );
         } else {
             if (this.state.status === "second") {
                 return (
                     <div className='header'>
-                        But we also create things. 
+                        People from all walks of life and cultural backgrounds, 
                     </div>
                 );    
             } else {
                 return (
                     <div className='header'>
-                        Trying our best to make sense of this world.
+                        To solve problems that are unique to us human together.
                     </div>
                 );
             }

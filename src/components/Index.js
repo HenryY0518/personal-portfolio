@@ -53,7 +53,7 @@ function Index(props) {
 
 <div className="indexTag">
         <p>
-          Visaul Design, Photography
+          Visual Design, Photography
         </p>
       </div>
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-scroll";
+import 'normalize.css'
 
 function Index(props) {
   return (
@@ -7,18 +8,18 @@ function Index(props) {
 
       <div className="indexTag">
         <p>
-          UX Design, User Research
+          Wed Design
         </p>
       </div>
-      
-      <Link className='indexItem1'
+
+      <Link className='indexItem4'
         activeClass="active"
-        to="project1"
+        to="project4"
         spy={true}
         smooth={true}
         offset={-70}
         duration={500}
-      ><span className="linkSpacer">AI Garden</span></Link>
+      ><span className="linkSpacer">UBC BizChina</span></Link>
       
       <div className="indexTag">
         <p>
@@ -38,6 +39,21 @@ function Index(props) {
 
       <div className="indexTag">
         <p>
+          UX Design, User Research
+        </p>
+      </div>
+      
+      <Link className='indexItem1'
+        activeClass="active"
+        to="project1"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      ><span className="linkSpacer">AI Garden</span></Link>
+
+      <div className="indexTag">
+        <p>
           Coming Soon
         </p>
       </div>
@@ -51,7 +67,7 @@ function Index(props) {
         duration={500}
       ><span className="linkSpacer">Eat n' Log</span></Link>
 
-<div className="indexTag">
+      <div className="indexTag">
         <p>
           Visual Design, Photography
         </p>
@@ -66,6 +82,7 @@ function Index(props) {
         duration={500}
       ><span className="linkSpacer">Miscellaneous</span></Link>
     </div>
+    
   );
 }
 

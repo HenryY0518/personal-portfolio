@@ -28,9 +28,9 @@ function Happy() {
                 <Overview
                     role={'UX Designer, User Researcher'}
                     for={'UBC Lauch Pad'}
-                    duration={'Ongoing'}
+                    duration={'Sep 2020-Oct 2021'}
                     team={'Henry Yang, Tiffany Wu'}
-                    status={'In development'}
+                    status={'Completed'}
                     discipline={'Product Redesign, User Research'} />
                 <Text head={'Background'}>
                     <p>
@@ -120,7 +120,7 @@ function Happy() {
                 <Photo source={happyBranding} />
                 <img className="big-photo" src={bigHappy} alt='long'/>
 
-                <Next address0={'/'} address1={'/ai'} name0={'Home'} name1={"AI Garden"} />
+                <Next address0={'/biz'} address1={'/ai'} name0={'BizChina'} name1={"AI Garden"} />
             </div>
         </div>
     )

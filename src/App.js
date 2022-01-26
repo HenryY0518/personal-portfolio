@@ -11,6 +11,7 @@ import About from './pages/About';
 import Eat from './pages/projects/Eat';
 import AI from './pages/projects/AI';
 import Happy from './pages/projects/Happy';
+import Biz from './pages/projects/Biz';
 
 import Craig from './pages/ChristmasCards/Craig'
 
@@ -26,7 +27,7 @@ class App extends React.Component {
       ],
       home: {
         title: "Hey, I'm Henry Yang, a product designer based in Vancouver.",
-        subTitle: 'Check out my projects below.',
+        subTitle: '🌏 Check out my projects below 🌎',
       },
       about: {
         title: 'About me',
@@ -48,6 +49,7 @@ class App extends React.Component {
           <Route path='/eat' exact render={() => <Eat title={this.state.resume.title} />} />
           <Route path='/ai' exact render={() => <AI title={this.state.resume.title} />} />
           <Route path='/happy' exact render={() => <Happy title={this.state.resume.title} />} />
+          <Route path='/biz' exact render={() => <Biz title={this.state.resume.title} />} />
           <Route path='/craig' exact render={() => <Craig/>}/>
           <Footer></Footer>
           <Navbar></Navbar>

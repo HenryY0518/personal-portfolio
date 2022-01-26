@@ -17,7 +17,6 @@ function Craig() {
                 <p>Best,</p>
                 <p><span>Henry Yang</span></p>
             </div>
-
         </div>
     )
 }

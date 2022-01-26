@@ -25,7 +25,7 @@ function AI() {
             <Overview
                 role={'UX Designer, UX Researcher'}
                 for={'AI Garden'}
-                duration={'Ongoing'}
+                duration={'May 2020-May 2021'}
                 team={'Henry Yang'}
                 status={'In development'}
                 discipline={'UX Design, UX Research'} />
@@ -35,7 +35,7 @@ function AI() {
                     I went back to China to be with my family during the pandemic and was able to land an UX internship at a local start-up. The start-up, with garden design background, was pivoting into a tech company by the time I joined.
                 </p>
                 <p>
-                    According to the research of AI Garden, there is a growing population of young entrepreneur farmers, and they are looking for ways to get into the industry without too much hassle, and irrigation is one of the most important part of the farming process. As a result, the company decided to gain traction by breaking into the emerging smart agriculture industry in China, which frames our <i>initial problem statement</i> as
+                    According to the research of AI Garden, there is a growing population of young entrepreneur farmers, and they are looking for ways to get into the industry without too much hassle, and irrigation is one of the most important part of the farming process. As a result, the company decided to gain traction by breaking into the emerging smart agriculture industry in China, which framed our <i>initial problem statement</i> as
                 </p>
                 <p className='statement'>
                     How might we provide an irrigation solution that allows younger farmers to irrigate with ease and enjoyment?
@@ -124,7 +124,7 @@ function AI() {
             <Photo source={team1} />
 
 
-            <Next address0={'/'} address1={'/happy'} name0={"Home"} name1={'Happy Hour'} />
+            <Next address0={'/happy'} address1={'/'} name0={"HappyHour"} name1={'Home'} />
         </div>
     )
 }

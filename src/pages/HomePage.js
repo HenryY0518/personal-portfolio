@@ -7,6 +7,7 @@ import Project0 from '../components/Project0';
 import Project1 from '../components/Project1';
 import Project2 from '../components/Project2';
 import Project3 from '../components/Project3';
+import Project4 from '../components/Project4';
 
 
 function HomePage(props) {
@@ -17,10 +18,12 @@ function HomePage(props) {
                 <Hero title={props.title} subTitle={props.subTitle} text={props.text}/>
                 <Index></Index>  
             </div>
+            <Project4></Project4>
             <Project2></Project2>
             <Project1></Project1>
             <Project0></Project0>
             <Project3></Project3>
+            
         </div>
     );    
 }

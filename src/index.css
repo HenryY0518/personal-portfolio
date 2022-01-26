@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Press+Start+2P&display=swap');
+
+
 h1 {
   font-family: 'Merriweather', serif;
 }
@@ -12,7 +14,7 @@ h2 {
 h3 {
   font-family: 'Merriweather', serif;
 }
-
+f
 h4 {
   font-family: 'Merriweather', serif;
 }
@@ -230,12 +232,10 @@ code {
   }
 }
 
-
-
 @media screen and (min-width: 1001px) {
   .indexTag {
-    padding: 8px;
-    margin-right: 8px;
+    margin-top: 15px;
+    margin-right: 10px;
     float: right;
     outline: none;
     display: block;
@@ -248,21 +248,6 @@ code {
   .indexTag {
     display: none;
   }
-}
-
-.indexItem {
-  padding: 6px;
-  font-size: 200%;
-  color: #161111;
-  float: center;
-  outline: none;
-  display: block;
-  position: relative;
-  background-color: #e7e7e7;
-}
-
-.indexItem:hover {
-  color: #AF2C2C;
 }
 
 .indexItem1 {
@@ -300,7 +285,7 @@ code {
   font-size: 200%;
   color: #161111;
   position: relative;
-  background-color: #d1d1d1;
+  background-color: #e7e7e7;
   float: center;
   outline: none;
   display: block;
@@ -309,6 +294,37 @@ code {
 .indexItem3:hover {
   color: #A27079;
 }
+
+.indexItem4 {
+  padding: 6px;
+  font-size: 200%;
+  color: #161111;
+  position: relative;
+  background-color: #e7e7e7;
+  float: center;
+  outline: none;
+  display: block;
+}
+
+.indexItem4:hover {
+  color: #A64133;
+}
+
+.indexItem {
+  padding: 6px;
+  font-size: 200%;
+  color: #161111;
+  float: center;
+  outline: none;
+  display: block;
+  position: relative;
+  background-color: #d1d1d1;
+}
+
+.indexItem:hover {
+  color: #AF2C2C;
+}
+
 
 .linkSpacer {
   padding-left: 8px;
@@ -413,6 +429,11 @@ code {
 
 .project3 {
   background-color: #A27079;
+  padding-bottom: 108px;
+}
+
+.project4 {
+  background-color: #A64133;
   padding-bottom: 108px;
 }
 
@@ -652,6 +673,18 @@ code {
   background-size: cover;
 }
 
+.cover4 {
+  background-image: url('./assets/images/biz/shang2.jpeg');
+  width: 100%;
+  /* Set a specific height */
+  min-height: 350px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .cover-container {
   background-color: #AF2C2C;
   border-radius: 18px 18px 0px 0px;
@@ -670,6 +703,14 @@ code {
 
 .cover-container2 {
   background-color: #216f9a;
+  border-radius: 18px 18px 0px 0px;
+  color: #fbfbf8;
+  bottom: 20px;
+  position: relative;
+}
+
+.cover-container4 {
+  background-color: #A64133;
   border-radius: 18px 18px 0px 0px;
   color: #fbfbf8;
   bottom: 20px;
@@ -841,7 +882,7 @@ code {
     max-width: 100%;
     position: relative;
     display: block;
-    float: cennter;
+    float: center;
   }
 }
 
@@ -870,6 +911,10 @@ code {
 .icons {
   margin-right:8px;
   margin-bottom:32px
+}
+
+.visit {
+  text-align:center;
 }
 
 

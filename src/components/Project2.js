@@ -21,16 +21,16 @@ function Project0(props) {
                 <ProjectInfo projectName="HappyHour" projectTagline="Group scheduling made simple"></ProjectInfo>
                 <div class="row">
                     <div class="column">
-                        <img src={happyBranding} alt='happyBranding'/>
-                        <img src={login} alt='login' />
+                        <a href='/happy'><img src={happyBranding} alt='happyBranding'/></a>
+                        <a href='/happy'><img src={login} alt='login' /></a>
                     </div>
                     <div class="column">
-                        <img src={landing} alt='landing' />
-                        <img src={bigHappy} alt='bigHappy' />
+                        <a href='/happy'><img src={landing} alt='landing' /></a>
+                        <a href='/happy'><img src={bigHappy} alt='bigHappy' /></a>
                     </div>
                     <div class="column">
-                        <img src={sticky} alt='sticky' />
-                        <img src={gradient} alt='gradient' />
+                        <a href='/happy'><img src={sticky} alt='sticky' /></a>
+                        <a href='/happy'><img src={gradient} alt='gradient' /></a>
                     </div>
                 </div>
             </div>

@@ -21,22 +21,22 @@ function Project3(props) {
                 <ProjectInfo projectName="UBC BizChina" projectTagline="A bridge between China and Canada"></ProjectInfo>
                 <div class="row">
                     <div class="column">
-                        <img src={bizTeam} alt="team"/>
+                        <a href='/biz'><img src={bizTeam} alt="team"/></a>
                     </div>
                     <div class="column">
-                    <img src={mission} alt="design"/>
+                        <a href='/biz'><img src={mission} alt="design"/></a>
                     </div>
                     <div class="column">
-                        <img src={shang2} alt="shanghai"/>
+                        <a href='/biz'><img src={shang2} alt="shanghai"/></a>
                     </div>
                     <div class="column">
-                    <img src={stats} alt="stats"/>
+                        <a href='/biz'><img src={stats} alt="stats"/></a>
                     </div>
                     <div class="column">
-                    <img src={bridge} alt="stats"/>
+                        <a href='/biz'><img src={bridge} alt="stats"/></a>
                     </div>
                     <div class="column">
-                    <img src={contacts} alt="contacts"/>
+                        <a href='/biz'><img src={contacts} alt="contacts"/></a>
                     </div>
                 </div>
             </div>

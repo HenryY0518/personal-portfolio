@@ -19,16 +19,16 @@ function Project0(props) {
                 <ProjectInfo projectName="AI Garden" projectTagline="Smart irrigation solution for the new generation farmers"></ProjectInfo>
                 <div class="row">
                     <div class="column">
-                        <img src={prototype1} alt="prototype1" />
-                        <img src={style1} alt="style1" />
+                        <a href='/ai'><img src={prototype1} alt="prototype1" /></a>
+                        <a href='/ai'><img src={style1} alt="style1" /></a>
                     </div>
                     <div class="column">
-                        <img src={logic} alt="logic" />
-                        <img src={ai_wireframe} alt="ai_wireframe" />
+                        <a href='/ai'><img src={logic} alt="logic" /></a>
+                        <a href='/ai'><img src={ai_wireframe} alt="ai_wireframe" /></a>
                     </div>
                     <div class="column">
-                        <img src={persona2} alt="persona2" />
-                        <img src={team1} alt="team1" />
+                        <a href='/ai'><img src={persona2} alt="persona2" /></a>
+                        <a href='/ai'><img src={team1} alt="team1" /></a>
                     </div>
                 </div>
             </div>

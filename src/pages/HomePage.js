@@ -9,21 +9,29 @@ import Project2 from '../components/Project2';
 import Project3 from '../components/Project3';
 import Project4 from '../components/Project4';
 
+import disc from '../assets/images/disc.jpeg';
+import disc2 from '../assets/images/disc2.jpeg';
+
+
+
 
 function HomePage(props) {
     return(
         <div>
             <Header></Header>
             <div className='landingContainer'>
-                <Hero title={props.title} subTitle={props.subTitle} text={props.text}/>
+                {/* <div className="landingDisc">
+                </div> */}
+                <img className='disc2' src={disc2} alt="dics2"/>
                 <Index></Index>  
+                {/* <Hero title={props.title} subTitle={props.subTitle} text={props.text}/> */}
+                <img className='disc' src={disc} alt="dics"/>
             </div>
             <Project4></Project4>
             <Project2></Project2>
             <Project1></Project1>
             <Project0></Project0>
             <Project3></Project3>
-            
         </div>
     );    
 }

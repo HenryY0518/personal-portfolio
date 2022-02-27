@@ -5,12 +5,13 @@ import 'normalize.css'
 function Index(props) {
   return (
     <div className='index'>
+      <span className="indexTitle">2022 Portfolio</span>
 
-      <div className="indexTag">
+      {/* <div className="indexTag">
         <p>
           Wed Design
         </p>
-      </div>
+      </div> */}
 
       <Link className='indexItem4'
         activeClass="active"
@@ -19,14 +20,13 @@ function Index(props) {
         smooth={true}
         offset={-70}
         duration={500}
-      ><span className="linkSpacer">UBC BizChina</span></Link>
+      >1.UBC BizChina <span className="lighter">(Web Design)</span></Link>
       
-      <div className="indexTag">
+      {/* <div className="indexTag">
         <p>
           User Research, Product Redesign
         </p>
-      </div>
-
+      </div> */}
 
       <Link className='indexItem2'
         activeClass="active"
@@ -35,13 +35,13 @@ function Index(props) {
         smooth={true}
         offset={-70}
         duration={500}
-      ><span className="linkSpacer">HappyHour</span></Link>
+      >2.HappyHour <span className="lighter">(App Redesign)</span></Link>
 
-      <div className="indexTag">
+      {/* <div className="indexTag">
         <p>
           UX Design, User Research
         </p>
-      </div>
+      </div> */}
       
       <Link className='indexItem1'
         activeClass="active"
@@ -50,13 +50,13 @@ function Index(props) {
         smooth={true}
         offset={-70}
         duration={500}
-      ><span className="linkSpacer">AI Garden</span></Link>
+      >3.AI Garden <span className="lighter">(User Research)</span></Link>
 
-      <div className="indexTag">
+      {/* <div className="indexTag">
         <p>
           Coming Soon
         </p>
-      </div>
+      </div> */}
 
       <Link className='indexItem'
         activeClass="active"
@@ -65,13 +65,13 @@ function Index(props) {
         smooth={true}
         offset={-70}
         duration={500}
-      ><span className="linkSpacer">Eat n' Log</span></Link>
+      >4.Eat n' Log <span className="lighter">(Coming Soon)</span></Link>
 
-      <div className="indexTag">
+      {/* <div className="indexTag">
         <p>
           Visual Design, Photography
         </p>
-      </div>
+      </div> */}
 
       <Link className='indexItem3'
         activeClass="active"
@@ -80,9 +80,8 @@ function Index(props) {
         smooth={true}
         offset={-70}
         duration={500}
-      ><span className="linkSpacer">Miscellaneous</span></Link>
+      >5.Miscellaneous <span className="lighter">(Visual Design)</span></Link>
     </div>
-    
   );
 }
 

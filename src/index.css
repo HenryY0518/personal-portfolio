@@ -1,30 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Press+Start+2P&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
 
 h1 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
-
 h2 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 h3 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 f
 h4 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 h5 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 h6 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 p {
@@ -212,53 +211,145 @@ code {
   margin-top: 80px;
 }
 
-@media screen and (min-width: 1001px) {
-  .index {
-    margin-left: 8%;
-    margin-right: 8%;
-    padding-bottom: 120px;
-    font-size: 100%;
-    font-family: 'Inconsolata', monospace;
-  }
+.indexTitle {
+  font-size: 250%;
+  color: #2B5B6C;
+  font-weight: 800;
 }
 
-@media screen and (max-width: 1000px) {
-  .index {
-    margin-left: 8%;
-    margin-right: 8%;
-    padding-bottom: 120px;
-    font-size: 85%;
-    font-family: 'Inconsolata', monospace;
-  }
-}
-
-@media screen and (min-width: 1001px) {
-  .indexTag {
-    margin-top: 15px;
-    margin-right: 10px;
+@media screen and (min-width:1601px) and (max-width:3000px) {
+  .disc {
+    max-width: 60%;
     float: right;
-    outline: none;
-    display: block;
-    position: relative;
-    z-index: 1;
+    position: absolute;
+    z-index: 0;
+  }
+}
+
+@media screen and (min-width:1001px) and (max-width: 1600px) {
+  .disc {
+    max-width: 58%;
+    float: right;
+    position: absolute;
+    z-index: 0;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .indexTag {
+  .disc {
+    display:none;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .disc2 {
     display: none;
   }
+}
+
+@media screen and (min-width:501px) and (max-width: 1000px) {
+  .disc2 {
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .disc2 {
+    max-width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width:1601px) and (max-width:3000px) {
+  .index {
+    float: right;
+    text-align: center;
+    margin-top: 25vh;
+    margin-left: 4%;
+    margin-right: 15vw;
+    padding-bottom: 120px;
+    font-size: 90%;
+    line-height: 1.8;
+    z-index: 1;
+    font-family: 'Inconsolata', monospace;
+  }
+}
+
+@media screen and (min-width:1301px) and (max-width: 1600px) {
+  .index {
+    float: right;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 4%;
+    margin-right: 5%;
+    padding-bottom: 120px;
+    font-size: 90%;
+    line-height: 1.8;
+    z-index: 1;
+    font-family: 'Inconsolata', monospace;
+  }
+}
+
+@media screen and (min-width:1001px) and (max-width: 1300px) {
+  .index {
+    float: right;
+    text-align: center;
+    margin-top: 18%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-bottom: 120px;
+    line-height: 1.8;
+    font-size: 70%;
+    z-index: 1;
+    font-family: 'Inconsolata', monospace;
+  }
+}
+
+@media screen and (min-width:501px) and (max-width: 1000px) {
+  .index {
+    text-align: center;
+    margin-top: 3vh;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-bottom: 120px;
+    line-height: 1.8;
+    font-size: 70%;
+    z-index: 1;
+    font-family: 'Inconsolata', monospace;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .index {
+    text-align: center;
+    margin-top: 4vh;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-bottom: 120px;
+    line-height: 2;
+    font-size: 70%;
+    z-index: 1;
+    font-family: 'Inconsolata', monospace;
+  }
+}
+
+.lighter {
+  font-weight: 300;
 }
 
 .indexItem1 {
   padding: 6px;
   font-size: 200%;
-  color: #161111;
+  color: #2B5B6C;
   float: center;
   outline: none;
   position: relative;
   display: block;
-  background-color: #e7e7e7;
 }
 
 .indexItem1:hover {
@@ -268,10 +359,9 @@ code {
 .indexItem2 {
   padding: 6px;
   font-size: 200%;
-  color: #161111;
+  color: #2B5B6C;
   float: center;
   position: relative;
-  background-color: #d1d1d1;
   outline: none;
   display: block;
 }
@@ -283,9 +373,8 @@ code {
 .indexItem3 {
   padding: 6px;
   font-size: 200%;
-  color: #161111;
+  color: #2B5B6C;
   position: relative;
-  background-color: #e7e7e7;
   float: center;
   outline: none;
   display: block;
@@ -298,9 +387,8 @@ code {
 .indexItem4 {
   padding: 6px;
   font-size: 200%;
-  color: #161111;
+  color: #2B5B6C;
   position: relative;
-  background-color: #e7e7e7;
   float: center;
   outline: none;
   display: block;
@@ -313,12 +401,11 @@ code {
 .indexItem {
   padding: 6px;
   font-size: 200%;
-  color: #161111;
+  color: #2B5B6C;
   float: center;
   outline: none;
   display: block;
   position: relative;
-  background-color: #d1d1d1;
 }
 
 .indexItem:hover {
@@ -329,12 +416,26 @@ code {
 .linkSpacer {
   padding-left: 8px;
 }
-/* 
+
 .landingContainer {
   height: 100vh;
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
+
+.landingDisc {
+  background-image: url(./assets/images/disc.jpeg) ;
+  width: 65%;
+  /* Set a specific height */
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .landingContainer::before {
   animation: bounce 2s ease infinite;
@@ -347,17 +448,18 @@ code {
   letter-spacing: -1px;
   line-height: 4rem;
   margin-left: -3rem;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   text-align: center;
   width: 6rem;
+  z-index: 1;
 }
 
 @keyframes bounce {
   50% {
     transform: translateY(-50%);
   }
-} */
+}
 
 .row {
   display: flex;
@@ -548,7 +650,6 @@ code {
     padding-top: 16px
   }
 }
-
 
 
 @media screen and (min-width: 1001px) {
@@ -906,8 +1007,6 @@ code {
   }
 }
 
-
-
 .icons {
   margin-right:8px;
   margin-bottom:32px
@@ -916,14 +1015,6 @@ code {
 .visit {
   text-align:center;
 }
-
-
-
-
-
-
-
-
 
 
 

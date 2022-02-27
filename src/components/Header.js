@@ -65,7 +65,7 @@ render() {
             } else {
                 return (
                     <div className='header'>
-                        To solve problems that are unique to us human together.
+                        To solve problems that are unique to human beings together.
                     </div>
                 );
             }

@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Header from '../components/Header';
-import Hero from '../components/Hero';
 import Index from '../components/Index';
 import Project0 from '../components/Project0';
 import Project1 from '../components/Project1';
@@ -20,11 +19,8 @@ function HomePage(props) {
         <div>
             <Header></Header>
             <div className='landingContainer'>
-                {/* <div className="landingDisc">
-                </div> */}
                 <img className='disc2' src={disc2} alt="dics2"/>
                 <Index></Index>  
-                {/* <Hero title={props.title} subTitle={props.subTitle} text={props.text}/> */}
                 <img className='disc' src={disc} alt="dics"/>
             </div>
             <Project4></Project4>

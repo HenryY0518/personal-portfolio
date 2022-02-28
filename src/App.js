@@ -14,7 +14,6 @@ import AI from './pages/projects/AI';
 import Happy from './pages/projects/Happy';
 import Biz from './pages/projects/Biz';
 
-import Craig from './pages/ChristmasCards/Craig'
 
 class App extends React.Component {
   constructor(props) {

@@ -10,8 +10,6 @@ import stats from '../assets/images/biz/stats.jpeg';
 import contacts from '../assets/images/biz/contacts.jpeg';
 
 
-
-
 function Project4(props) {
 
     return (

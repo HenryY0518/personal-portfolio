@@ -1,5 +1,4 @@
 import React from 'react';
-import { Parallax } from 'react-scroll-parallax';
 
 
 import Header from '../components/Header';
@@ -12,8 +11,6 @@ import Project4 from '../components/Project4';
 
 import disc from '../assets/images/disc.jpeg';
 import disc2 from '../assets/images/disc2.jpeg';
-
-
 
 
 function HomePage(props) {

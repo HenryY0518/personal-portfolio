@@ -31,12 +31,25 @@ p {
   font-size: 19px;
 }
 
+hr.new {
+  border: 0.5px solid #2b5b6c5d;
+  border-radius: 5px;
+}
+
+hr.new1 {
+  margin-top: 100px;
+  border: 0.5px solid #2b5b6c5d;
+  border-radius: 5px;
+}
+
 body {
   margin: 0;
   font-family: 'Inconsolata', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
@@ -174,7 +187,7 @@ code {
     color: #fbfbf8;
     background-color: #000000da;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
-    z-index: +1
+    z-index: +2
   }
 }
 
@@ -191,7 +204,7 @@ code {
     color: #fbfbf8;
     background-color: #000000da;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
-    z-index: +1
+    z-index: +2
   }
 }
 
@@ -417,6 +430,13 @@ code {
   padding-left: 8px;
 }
 
+.parallax {
+  z-index: 0;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  margin-bottom: -25%;
+}
+
 .landingContainer {
   height: 100vh;
   width: 100%;
@@ -505,7 +525,7 @@ code {
 }
 
 .project0 {
-  background-color: #AF2C2C;
+  background-color: #fbfbf8;
   /* background-image: url('./assets/images/eat/neon.jpeg'); */
   padding-bottom: 108px;
   background-attachment: fixed;
@@ -515,7 +535,7 @@ code {
 }
 
 .project1 {
-  background-color: #005927;
+  background-color: #fbfbf8;
   /* background-image: url('./assets/images/ai/leaf.jpeg'); */
   padding-bottom: 108px;
   background-attachment: fixed;
@@ -525,17 +545,18 @@ code {
 }
 
 .project2 {
-  background-color: #216f9a;
+  z-index: 2;
+  background-color: #fbfbf8;
   padding-bottom: 108px;
 }
 
 .project3 {
-  background-color: #A27079;
+  background-color: #fbfbf8;
   padding-bottom: 108px;
 }
 
 .project4 {
-  background-color: #A64133;
+  background-color: #fbfbf8;
   padding-bottom: 108px;
 }
 
@@ -545,7 +566,7 @@ code {
     padding-left: 0px;
     padding-top: 32px;
     margin-left: -8px;
-    color: #fff;
+    color: #2B5B6C;
   }
 }
 
@@ -554,7 +575,7 @@ code {
     padding-left: 0px;
     padding-top: 32px;
     margin-left: -8px;
-    color: #fff;
+    color: #2B5B6C;
     font-size: 32px;
   }
 }
@@ -564,7 +585,7 @@ code {
     padding-left: 0px;
     padding-top: 8px;
     margin-left: -6px;
-    color: #fff;
+    color: #2B5B6C;
   }
 }
 
@@ -573,7 +594,7 @@ code {
     padding-left: 0px;
     padding-top: 8px;
     margin-left: -6px;
-    color: #fff;
+    color: #2B5B6C;
     font-size: 16px;
   }
 }
@@ -784,6 +805,13 @@ code {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hrContainer {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .cover-container {
@@ -1016,70 +1044,3 @@ code {
   text-align:center;
 }
 
-
-
-/* this is for the christmas cards */
-
-.parallax {
-  /* The image used */
-  background-image: url("https://images.unsplash.com/photo-1513297887119-d46091b24bfa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80");
-  /* Set a specific height */
-  min-height: 500px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.caption {
-  position: absolute;
-  left: 0;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  color: #161111;
-}
-
-.caption span.border1 {
-  background-color: #fbfbf8;
-  color: #cd303b;
-  font-family: 'Press Start 2P', cursive;
-  line-height: 90px;
-  padding: 12px;
-  font-size: 4vw;
-  letter-spacing: 10px;
-}
-
-.caption span.border2 {
-  background-color: #fbfbf8;
-  color: #263e3e;
-  font-family: 'Press Start 2P', cursive;
-  line-height: 90px;
-  padding: 12px;
-  font-size: 3vw;
-  letter-spacing: 10px;
-}
-
-.dear {
-  color: #cd303b;
-}
-
-.gap {
-  margin: 3%;
-  margin-bottom: 10%;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.letter {
-  /* border-radius: 10px 10px 0px 0px;  */
-  margin-top: -10px;
-  background-color: #f2ebdb;
-  font-size: 24px;
-  padding: 6%;
-  font-family: 'Inconsolata', monospace;
-  color: #263e3e;
-  /* box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; */
-}
-
-/* the end of christmas cards */

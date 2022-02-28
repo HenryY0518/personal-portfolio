@@ -17,7 +17,7 @@ function Project0(props) {
     return (
         <div className='project2' id='project2'>
             <div className='projectContainer'>
-                <Button address={'/happy'}></Button>
+                <Button address={'/happy'} buttonNumber={'buttonB'}></Button>
                 <ProjectInfo projectName="HappyHour" projectTagline="Group scheduling made simple"></ProjectInfo>
                 <div class="row">
                     <div class="column">

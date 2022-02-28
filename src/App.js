@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
@@ -44,7 +45,9 @@ class App extends React.Component {
       <Router onUpdate={() => window.scrollTo(0, 0)}>
         <ScrollToTop/>
         <Container className='p-0 background' fluid={true}>
-          <Route path='/' exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+          <ParallaxProvider>
+            <Route path='/' exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+          </ParallaxProvider>
           <Route path='/about' exact render={() => <About title={this.state.about.title} />} />
           <Route path='/eat' exact render={() => <Eat title={this.state.resume.title} />} />
           <Route path='/ai' exact render={() => <AI title={this.state.resume.title} />} />

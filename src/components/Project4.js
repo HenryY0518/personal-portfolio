@@ -12,12 +12,12 @@ import contacts from '../assets/images/biz/contacts.jpeg';
 
 
 
-function Project3(props) {
+function Project4(props) {
 
     return (
         <div className='project4' id='project4'>
             <div className='projectContainer'>
-                <Button address={'/biz'}></Button>
+                <Button address={'/biz'} buttonNumber={'buttonR'}></Button>
                 <ProjectInfo projectName="UBC BizChina" projectTagline="A bridge between China and Canada"></ProjectInfo>
                 <div class="row">
                     <div class="column">
@@ -44,4 +44,4 @@ function Project3(props) {
     );
 }
 
-export default Project3;
+export default Project4;

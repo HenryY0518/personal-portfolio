@@ -9,7 +9,6 @@ function ProjectInfo(props) {
             <p className='projectDescription'>{props.projectTagline}</p>
         </div>
     );
-    
 }
 
 export default ProjectInfo;

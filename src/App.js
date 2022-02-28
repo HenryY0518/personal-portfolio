@@ -53,7 +53,6 @@ class App extends React.Component {
           <Route path='/ai' exact render={() => <AI title={this.state.resume.title} />} />
           <Route path='/happy' exact render={() => <Happy title={this.state.resume.title} />} />
           <Route path='/biz' exact render={() => <Biz title={this.state.resume.title} />} />
-          <Route path='/craig' exact render={() => <Craig/>}/>
           <Footer></Footer>
           <Navbar></Navbar>
         </Container>

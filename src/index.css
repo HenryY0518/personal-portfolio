@@ -34,10 +34,11 @@ p {
 hr.new {
   border: 0.5px solid #2b5b6c5d;
   border-radius: 5px;
+  margin-bottom: 7%;
 }
 
 hr.new1 {
-  margin-top: 100px;
+  margin-top: 10%;
   border: 0.5px solid #2b5b6c5d;
   border-radius: 5px;
 }
@@ -232,7 +233,7 @@ code {
 
 @media screen and (min-width:1601px) and (max-width:3000px) {
   .disc {
-    max-width: 60%;
+    max-width: 65%;
     float: right;
     position: absolute;
     z-index: 0;
@@ -286,8 +287,8 @@ code {
     margin-left: 4%;
     margin-right: 15vw;
     padding-bottom: 120px;
-    font-size: 90%;
-    line-height: 1.8;
+    font-size: 100%;
+    line-height: 2;
     z-index: 1;
     font-family: 'Inconsolata', monospace;
   }

@@ -51,10 +51,12 @@ export default class Navbar extends Component {
           "bnav--hidden": !this.state.visible
         })}
       >
+        
         <li className='bnavItem'><NavLink className='links' to='/'><img className='logo' src={logo} alt='logo'></img></NavLink></li>
         <li className='bnavItem--left'><NavLink className='links' to='/'>HY Design.</NavLink></li>
         <li className='bnavItem--right'><NavLink className='links' to='/about' activeStyle={{ color: '#af2c2c' }}>About</NavLink></li>
-        <li className='bnavItem--right'><a className='links' target='_blank' href={resume}>Resume</a></li>
+        {// eslint-disable-next-line
+        <li className='bnavItem--right'><a className='links' target='_blank' href={resume}>Resume</a></li>}
       </nav>
     );
   }

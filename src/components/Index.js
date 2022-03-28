@@ -14,7 +14,7 @@ function Index(props) {
         smooth={true}
         offset={-70}
         duration={500}
-      >1.UBC BizChina <span className="lighter">(Web Design)</span></Link>
+      >UBC BizChina <span className="lighter">(Web Design)</span></Link>
 
       <Link className='indexItem2'
         activeClass="active"
@@ -23,7 +23,7 @@ function Index(props) {
         smooth={true}
         offset={-70}
         duration={500}
-      >2.HappyHour <span className="lighter">(App Redesign)</span></Link>
+      >HappyHour <span className="lighter">(App Redesign)</span></Link>
       
       <Link className='indexItem1'
         activeClass="active"
@@ -32,7 +32,7 @@ function Index(props) {
         smooth={true}
         offset={-70}
         duration={500}
-      >3.AI Garden <span className="lighter">(User Research)</span></Link>
+      >AI Garden <span className="lighter">(User Research)</span></Link>
 
       <Link className='indexItem'
         activeClass="active"
@@ -41,7 +41,7 @@ function Index(props) {
         smooth={true}
         offset={-70}
         duration={500}
-      >4.Eat n' Log <span className="lighter">(Coming Soon)</span></Link>
+      >Eat n' Log <span className="lighter">(Coming Soon)</span></Link>
 
       <Link className='indexItem3'
         activeClass="active"
@@ -50,7 +50,7 @@ function Index(props) {
         smooth={true}
         offset={-70}
         duration={500}
-      >5.Miscellaneous <span className="lighter">(Visual Design)</span></Link>
+      >Miscellaneous <span className="lighter">(Visual Design)</span></Link>
     </div>
   );
 }

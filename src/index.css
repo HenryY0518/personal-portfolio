@@ -126,9 +126,9 @@ code {
   }
 }
 
-.bnav--hidden {
+/* .bnav--hidden {
   bottom: -80px;
-}
+} */
 
 .bnavItem {
   position: relative;

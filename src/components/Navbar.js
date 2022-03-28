@@ -45,6 +45,7 @@ export default class Navbar extends Component {
 
   render() {
     return (
+      
       <nav
         className={classnames("bnav", {
           "bnav--hidden": !this.state.visible
@@ -53,7 +54,7 @@ export default class Navbar extends Component {
         <li className='bnavItem'><NavLink className='links' to='/'><img className='logo' src={logo} alt='logo'></img></NavLink></li>
         <li className='bnavItem--left'><NavLink className='links' to='/'>HY Design.</NavLink></li>
         <li className='bnavItem--right'><NavLink className='links' to='/about' activeStyle={{ color: '#af2c2c' }}>About</NavLink></li>
-        <li className='bnavItem--right'><a className='links' href={resume}>Resume</a></li>
+        <li className='bnavItem--right'><a className='links' target='_blank' href={resume}>Resume</a></li>
       </nav>
     );
   }

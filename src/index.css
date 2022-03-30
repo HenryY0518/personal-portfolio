@@ -100,13 +100,13 @@ code {
     transition: bottom 1.0s;
     position: fixed;
     height: 80px;
-    bottom: 0px;
+    top: 0px;
     font-family: 'Inconsolata', monospace;
-    font-size: 24px;
-    color: #161111;
-    background-color: #FCFAF1;
+    font-size: 20px;
+    backdrop-filter: blur(40px);
+    background-color: #fcfaf15b;
     z-index: 2;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
   }
 }
 
@@ -116,23 +116,25 @@ code {
     transition: bottom 1.0s;
     position: fixed;
     height: 80px;
-    bottom: 0px;
+    top: 0px;
     font-family: 'Inconsolata', monospace;
-    font-size: 24px;
-    color: #161111;
-    background-color: #FCFAF1;
+    font-size: 20px;
+    backdrop-filter: blur(40px);
+    background-color: #fcfaf15b;
     z-index: 2;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   }
 }
 
-/* .bnav--hidden {
-  bottom: -80px;
-} */
+.navContainer {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 
 .bnavItem {
   position: relative;
-  bottom: 5px;
+  bottom: 0px;
   float: left;
   outline: none;
   display: block;
@@ -141,8 +143,8 @@ code {
 
 @media screen and (min-width: 1001px) {
   .logo {
-    height: 60px;
-    width: 120px;
+    height: 50px;
+    width: 100px;
   }
 }
 
@@ -158,6 +160,7 @@ code {
   position: relative;
   color: #E34F33;
   padding: 6px;
+  padding-top: 10px;
   float: left;
   outline: none;
   display: block;
@@ -165,7 +168,9 @@ code {
 
 .bnavItem--right {
   position: relative;
+  padding-left: -50px;
   padding: 6px;
+  padding-top: 10px;
   float: right;
   outline: none;
   display: block;
@@ -190,10 +195,11 @@ code {
     position: fixed;
     padding: 16px;
     height: 80px;
-    top: 0px;
+    bottom: 0px;
     font-family: 'Inconsolata', monospace;
     font-size: 24px;
     color: #fbfbf8;
+    backdrop-filter: blur(8px);
     background-color: #000000da;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
     z-index: +2
@@ -207,18 +213,20 @@ code {
     padding-top:8px;
     padding-left:16px;
     height: 60px;
-    top: 0px;
+    backdrop-filter: blur(60px);
+    bottom: 0px;
     font-family: 'Inconsolata', monospace;
     font-size: 16px;
     color: #fbfbf8;
-    background-color: #000000da;
+    background-color: #000000b6;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
     z-index: +2
   }
 }
 
 .headerText {
-  padding: 16px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .carouselImage {
@@ -630,7 +638,7 @@ code {
 
 .hero1 {
   float: center;
-  padding-top: 8vh;
+  padding-top: 15vh;
   padding-left: 8%;
   padding-right: 8%;
   padding-bottom: 3vh;
@@ -856,20 +864,20 @@ code {
 }
 
 .cover-title {
-  padding-left: 10%;
+  padding-left: 15%;
   padding-right: 32px;
   padding-top: 24px;
 }
 
 .cover-sub {
-  padding-left: 10%;
+  padding-left: 15%;
   padding-right: 32px;
   padding-bottom: 16px;
   padding-top: 0px
 }
 
 .overview {
-  margin-left: 10%;
+  margin-left: 15%;
   margin-top: 2.5%;
   position: relative;
 }
@@ -885,12 +893,12 @@ code {
 .footer {
   clear: both;
   left: 0;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
   background-color: #E34F33;
   color: #161111;
   position: relative;
-  height: 100px;
+  height: 180px;
   font-family: 'Inconsolata', monospace;
 }
 
@@ -899,7 +907,7 @@ code {
     position: relative;
     float: left;
     padding-top: 36px;
-    padding-left: 3%;
+    padding-left: 4%;
     font-size: 20px;
     display: block;
   }
@@ -910,7 +918,7 @@ code {
     position: relative;
     float: center;
     padding-top: 36px;
-    padding-left: 3%;
+    padding-left: 4%;
     font-size: 24px;
     display: block;
   }
@@ -935,8 +943,8 @@ code {
 
 .text {
   margin-top: 2.5%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   clear: both;
 }
 
@@ -947,10 +955,10 @@ code {
 }
 
 .photo {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-bottom: 4%;
-  max-width: 80%;
+  max-width: 70%;
   max-height: auto;
 }
 
@@ -962,8 +970,8 @@ code {
 
 .next {
   margin-top: 32px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   font-size: 24px;
   clear: both
 }

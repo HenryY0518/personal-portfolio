@@ -14,24 +14,24 @@ export default class Header extends React.Component {
     this.listener = document.addEventListener("scroll", e => {
       var scrolled = document.scrollingElement.scrollTop;
       if (scrolled >= 2400) {
-          if (this.state.status !== "third") {
-              this.setState({status:"third"});
-          }
+        if (this.state.status !== "third") {
+          this.setState({ status: "third" });
+        }
       } else {
         if (scrolled >= 1600) {
-            if (this.state.status !== "second") {
-                this.setState({status:"second"});
-            }
+          if (this.state.status !== "second") {
+            this.setState({ status: "second" });
+          }
         } else {
           if (scrolled >= 800) {
-              if (this.state.status !== "first") {
-                this.setState({ status: "first" });
-              }
-            } else {
-              if (this.state.status !== "top") {
-                this.setState({ status: "top" });
-              }
-            }   
+            if (this.state.status !== "first") {
+              this.setState({ status: "first" });
+            }
+          } else {
+            if (this.state.status !== "top") {
+              this.setState({ status: "top" });
+            }
+          }
         }
       }
     });
@@ -41,35 +41,35 @@ export default class Header extends React.Component {
     document.removeEventListener("scroll", this.listener);
   }
 
-render() {
+  render() {
     if (this.state.status === "top") {
-        return (
-            <div className='header'>
-                What does it mean to be a designer?
-            </div>
-        );   
+      return (
+        <div className='header'>
+          <span className='headerText'>What does it mean to be a designer?</span>
+        </div>
+      );
     } else {
-        if (this.state.status === "first") {
-            return (
-                <div className='header'>
-                    It means being a life-long learner who tries to understand others,
-                </div>
-            );
+      if (this.state.status === "first") {
+        return (
+          <div className='header'>
+            <span className='headerText'>It means being a life-long learner who tries to understand others,</span>
+          </div>
+        );
+      } else {
+        if (this.state.status === "second") {
+          return (
+            <div className='header'>
+              <span className='headerText'>People from all walks of life and cultural backgrounds,</span>
+            </div>
+          );
         } else {
-            if (this.state.status === "second") {
-                return (
-                    <div className='header'>
-                        People from all walks of life and cultural backgrounds, 
-                    </div>
-                );    
-            } else {
-                return (
-                    <div className='header'>
-                        To solve problems that are unique to human beings together.
-                    </div>
-                );
-            }
+          return (
+            <div className='header'>
+              <span className='headerText'>To solve problems that are unique to human beings together.</span>
+            </div>
+          );
         }
+      }
     }
   }
 }

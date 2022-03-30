@@ -17,7 +17,7 @@ function Happy() {
     return (
         <div>
             <Background coverNumber={'cover4'} />
-            <Cover title={"UBC BizChina"} subTitle={"A bridge between China and Canada"} colourNumber={'cover-container4'} />
+            <Cover title={"UBC BizChina"} subTitle={"Redesigning the website bridging China and Canada"} colourNumber={'cover-container4'} />
             <div className="content">
                 <Overview
                     role={'Lead Web Designer'}

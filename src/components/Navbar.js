@@ -51,7 +51,7 @@ export default class Navbar extends Component {
           <li className='bnavItem'><NavLink className='links' to='/'><img className='logo' src={logo} alt='logo'></img></NavLink></li>
           {/* <li className='bnavItem--left'><NavLink className='links' to='/'exact={true} activeStyle={{ color: '#e34f34' }}>HY DESIGN.</NavLink></li> */}
           {// eslint-disable-next-line
-            <li className='bnavItem--right'><a className='links' target='_blank' href={resume}>RESUME</a></li>}
+            <li className='bnavItem--right1'><a className='links' target='_blank' href={resume}>RESUME</a></li>}
             <li className='bnavItem--right'><NavLink className='links' to='/about' activeStyle={{ color: '#e34f34' }}>ABOUT</NavLink></li>
             <li className='bnavItem--right'><NavLink className='links' to='/' exact={true} activeStyle={{ color: '#e34f34' }}>PROJECTS</NavLink></li>
         </div>

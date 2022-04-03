@@ -28,14 +28,6 @@ h6 {
 
 p {
   font-family: 'Inconsolata', monospace;
-
-
-
-
-
-
-
-  
   font-size: 19px;
 }
 
@@ -176,6 +168,24 @@ code {
   display: block;
 }
 
+@media screen and (min-width: 1001px) {
+  .bnavItem--right1 {
+    position: relative;
+    padding-left: -50px;
+    padding: 6px;
+    padding-top: 10px;
+    float: right;
+    outline: none;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .bnavItem--right1 {
+    display: none;
+  }
+}
+
 .links {
   color: #2B5B6C;
   position: relative;
@@ -291,6 +301,7 @@ code {
     max-width: 85%;
     display: block;
     margin-left: auto;
+    margin-top: 8%;
     margin-right: auto;
   }
 }
@@ -362,7 +373,7 @@ code {
     margin-right: 4%;
     padding-bottom: 120px;
     line-height: 2;
-    font-size: 70%;
+    font-size: 58%;
     z-index: 1;
     font-family: 'Inconsolata', monospace;
   }

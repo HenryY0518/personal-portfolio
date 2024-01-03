@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": true,
+  "tsx": false,
+  "tailwind": {
+    "config": "/Users/tianyang/Documents/personal-portfolio/tailwind.config.js",
+    "css": "/Users/tianyang/Documents/personal-portfolio/src/index.css",
+    "baseColor": "stone",
+    "cssVariables": false,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils"
+  }
+}

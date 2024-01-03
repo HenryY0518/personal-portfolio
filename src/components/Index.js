@@ -5,7 +5,7 @@ import 'normalize.css'
 function Index(props) {
   return (
     <div className='index'>
-      <span className="indexTitle">2022 Portfolio</span>
+      <span className="indexTitle">2024 Portfolio</span>
 
       <Link className='indexItem4'
         activeClass="active"
